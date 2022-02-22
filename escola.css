@@ -1,0 +1,211 @@
+.cabecalho {
+    background-color: rgb(28, 197, 104);
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+     justify-content: space-around;
+      padding: 8px; 
+  }
+  
+  .cabecalho-imagem { 
+   height: 72px;
+   float: left; 
+   gap: 10px;
+  }
+  
+  .cabecalho-menu { 
+   display: flex;
+    gap: 32px;
+   }
+  
+  .cabecalho-menu-item {
+     font-family: 'Sarala', sans-serif;
+      color: #6739a3; font-weight: 400;
+       font-size: 25px; 
+       margin: 0;
+       text-decoration: none;
+      } 
+      .cabecalho-menu-item:hover{
+        text-decoration: none;
+        color: #755ab4;
+      }
+
+
+
+      .conteudo { 
+        margin-bottom: 48px; 
+        border-top: 0.4px solid #ccc;
+       }
+  
+     .conteudo-principal {
+          display: flex; 
+          flex-direction: row; 
+          align-items: center; 
+          justify-content: space-around; 
+      }
+  
+      .conteudo-principal-escrito { 
+          display: flex;
+           flex-direction: column; 
+           gap: 32px; 
+          } 
+  
+      .conteudo-principal-escrito-titulo {
+           font-family: 'Righteous', cursive;
+            font-weight: 400; 
+            font-size: 64px; 
+            color: #00ff88; 
+          } 
+  
+      .conteudo-principal-escrito-subtitulo { 
+          font-family: 'Sarala', sans-serif;
+           font-weight: 400;
+            font-size: 24px; 
+            color: #00ff88; 
+          }
+  
+      .conteudo-principal-escrito-botao {
+           background-color: rgb(125, 98, 223); 
+           width: 180px;
+            height: 60px;
+             border: none;
+             box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; 
+             font-family: 'Sarala', sans-serif;
+              font-weight: 400; font-size: 24px; 
+              color:#15121d; 
+          } 
+  
+      .conteudo-principal-escrito-botao:hover {
+           background-color: #00ff88;
+           } 
+  
+      .conteudo-principal-imagem { 
+          height: 430px; 
+      }
+      .conteudo-secundario {
+        display: flex;
+         flex-direction: column; 
+         align-items: center;
+          gap: 24px;
+           margin-top: 48px;
+        }
+
+   .conteudo-secundario-titulo { 
+       border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px; font-family: 'Righteous', cursive;
+         font-weight: 400; 
+         font-size: 24px; 
+         color: #00ff88; 
+         margin-bottom: 16px;
+        }
+
+   .conteudo-secundario-paragrafo { 
+       font-family: 'Sarala', sans-serif;
+        font-weight: 300; font-size: 18px; color: #0e0d0d;
+        }
+
+
+      
+
+
+
+
+
+
+      .footer-clean {
+        padding:40px 0;
+        background-color:rgb(28, 197, 104) ;
+        color:#0c0b0b;
+        
+        }
+        
+        .footer-clean h3 {
+        margin-top:0;
+        margin-bottom:12px;
+        font-weight:bold;
+        font-size:16px;
+        }
+        
+        .footer-clean ul {
+        padding:0;
+        list-style:none;
+        line-height:1.6;
+        font-size:14px;
+        margin-bottom:0;
+        }
+        
+        .footer-clean ul a {
+        color:inherit;
+        text-decoration:none;
+        opacity:0.8;
+        }
+        
+        .footer-clean ul a:hover {
+        opacity:1;
+        }
+        
+        .footer-clean .item.social {
+        text-align:right;
+        }
+        
+        @media (max-width:767px) {
+        .footer-clean .item {
+          text-align:center;
+          padding-bottom:20px;
+        }
+        }
+        
+        @media (max-width: 768px) {
+        .footer-clean .item.social {
+          text-align:center;
+        }
+        }
+        
+        .footer-clean .item.social > a {
+        font-size:24px;
+        width:40px;
+        height:40px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid rgb(5, 5, 5);
+        margin-left:10px;
+        margin-top:22px;
+        color:inherit;
+        opacity:0.75;
+        }
+        
+        .footer-clean .item.social > a:hover {
+        opacity:0.9;
+        }
+        
+        @media (max-width:991px) {
+        .footer-clean .item.social > a {
+          margin-top:40px;
+        }
+        }
+        
+        @media (max-width:767px) {
+        .footer-clean .item.social > a {
+          margin-top:10px;
+        }
+        }
+        
+        .footer-clean .copyright {
+        margin-top:14px;
+        margin-bottom:0;
+        font-size:13px;
+        opacity:0.6;
+        }
+        
+        .container{
+          max-zoom: 20;
+          width: 500;
+        }
+        
+        .img-footer{
+          float: left;
+          max-width: 200px;
+          }
+      
